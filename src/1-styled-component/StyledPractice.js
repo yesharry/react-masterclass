@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 
 const Father = styled.div`
@@ -28,7 +29,7 @@ const Input = styled.input.attrs({ required: true, minLength: 10 })`
   background-color: tomato;
 `;
 
-function App() {
+function StyledPractice() {
   return (
     <Father as="header">
       <div>
@@ -54,4 +55,4 @@ function App() {
   );
 }
 
-export default App;
+export default StyledPractice;
