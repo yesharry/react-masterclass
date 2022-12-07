@@ -19,6 +19,10 @@ const rotationAnimation = keyframes`
   }
 `;
 
+const Emoji = styled.span`
+  font-size: 36px;
+`;
+
 const Box = styled.div`
   height: 200px;
   width: 200px;
@@ -27,7 +31,7 @@ const Box = styled.div`
   justify-content: center;
   align-items: center;
   animation: ${rotationAnimation} 1s linear infinite;
-  span {
+  /* span {
     font-size: 36px;
     &:hover {
       font-size: 48px;
@@ -35,17 +39,31 @@ const Box = styled.div`
     &:active {
       opacity: 0;
     }
+  } */
+  /* span:hover {
+    font-size: 48px;
+  }
+  span:active {
+    opacity: 0;
+  } */
+
+  ${Emoji} {
+    &:hover {
+      font-size: 98px;
+    }
   }
 `;
 
-function AnimationPractice() {
+function AnimationPseudo() {
   return (
     <Wrapper>
       <Box>
-        <span>😍</span>
+        {/* <span>😍</span> */}
+        <Emoji>😍</Emoji>
       </Box>
+      <Emoji>💗</Emoji>
     </Wrapper>
   );
 }
 
-export default AnimationPractice;
+export default AnimationPseudo;
