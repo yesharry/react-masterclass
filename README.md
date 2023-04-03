@@ -1,3 +1,3 @@
 # REACT-MASTERCLASS
 
-nomad coder
+NomadCoder React 2weeks Challenge

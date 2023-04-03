@@ -52,6 +52,9 @@ const Box = styled.div`
       font-size: 98px;
     }
   }
+  /* ${Emoji}:hover {
+    font-size: 98px;
+  } */
 `;
 
 function AnimationPseudo() {
